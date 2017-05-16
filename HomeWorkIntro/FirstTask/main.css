@@ -1,0 +1,52 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+div{
+  position: absolute;
+}
+
+
+#top{
+  background-color: #FF0000;
+  left:0px;
+  top: 0px;
+  right:0px;
+  height: 180px;
+
+}
+
+#bottom{
+  background-color: #008000;
+  left: 12%;
+  right: 12%;
+  bottom: 0px;
+  height: 140px;
+}
+
+#left{
+  background-color: #FFFF00;
+  left: 0px;
+  top: 180px;
+  bottom: 0px;
+  width: 12%;
+}
+
+#right{
+  background-color: #FFFF00;
+  right: 0px;
+  top: 180px;
+  bottom: 0px;
+  width: 12%;
+
+}
+#center{
+  background-color: #0000FF;
+  left: 12%;
+  top: 180px;
+  bottom: 140px;
+  right: 12%;
+}

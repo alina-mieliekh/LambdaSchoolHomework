@@ -1,0 +1,58 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#top, #center{
+  position: absolute;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+#top{
+  background-color: #800080;
+  left:0px;
+  top: 0px;
+  right:0px;
+  height: 130px;
+}
+
+#center{
+  background-color: #FF0000;
+  padding: 60px 80px;
+  left: 20%;
+  top: 130px;
+  bottom:0px;
+  right: 5%;
+}
+
+.window{
+  background-color: #0000FF;
+  position: relative;
+  margin-bottom: 45px;
+  height: 220px;
+}
+
+.yellow, .green{
+  position: absolute;
+}
+
+.yellow{
+  background-color: #FFFF00;
+  left: 24px;
+  top: 22px;
+  width: 26%;
+  height: 115px;
+}
+
+.green{
+  background-color: #008000;
+  top: 22px;
+  right: 24px;
+  height: 155px;
+  width: 59%;
+}
