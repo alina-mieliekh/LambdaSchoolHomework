@@ -26,8 +26,9 @@ body{
   padding: 60px 80px;
   left: 20%;
   top: 130px;
-  bottom:0px;
   right: 5%;
+  bottom: 0px;
+  overflow: hidden;
 }
 
 .window{
