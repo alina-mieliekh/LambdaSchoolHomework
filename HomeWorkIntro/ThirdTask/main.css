@@ -5,55 +5,39 @@
 }
 
 
-#top, #center{
-  position: absolute;
-}
-
-body{
-  background-color: #F5F5F5;
-}
-
 #top{
   background-color: #800080;
-  left:0px;
-  top: 0px;
-  right:0px;
-  height: 130px;
+  width:100%;
+  height: 100px;
 }
 
 #center{
+  padding: 20px 0px;
   background-color: #FF0000;
-  padding: 60px 80px;
-  left: 20%;
-  top: 130px;
-  right: 5%;
-  bottom: 0px;
-  overflow: hidden;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .window{
+  display: block;
   background-color: #0000FF;
-  position: relative;
-  margin-bottom: 45px;
-  height: 220px;
-}
-
-.yellow, .green{
-  position: absolute;
+  height: 250px;
+  width: 60%;
+  margin: 20px auto;
 }
 
 .yellow{
   background-color: #FFFF00;
-  left: 24px;
-  top: 22px;
-  width: 26%;
-  height: 115px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 30px;
 }
 
 .green{
   background-color: #008000;
-  top: 22px;
-  right: 24px;
-  height: 155px;
-  width: 59%;
+  height: 150px;
+  width: 200px;
+  float: left;
+  margin-top: 30px;
 }
